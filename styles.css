@@ -1,0 +1,140 @@
+/* Загальні стилі */
+
+/* Загальні властивості для всього документу */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Заголовок, навігація, основний вміст і футер */
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стилі для заголовка */
+header {
+    background: #50b3a2;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Стилі для навігації */
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:hover {
+    background: #50b3a2;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Стилі для основного вмісту */
+main {
+    background: #ffffff;
+    color: #000000;
+    padding: 40px 0px;
+}
+
+main > * {
+    padding: 0 20px; /* відступи для всіх прямих дітей <main> */
+}
+
+/* Стилі для футеру */
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Заголовки різних рівнів */
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* Абзаци, час, підписи */
+p, time, label {
+    margin-bottom: 10px;
+}
+
+/* Відео-іфрейми */
+iframe {
+    max-width: 100%;
+}
+
+/* Цитати */
+blockquote {
+    border-left: 4px solid #50b3a2;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+/* Джерело цитат */
+cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+}
+
+/* Форми */
+form {
+    margin-top: 20px;
+}
+
+/* Підписи, текстові поля, текстові області */
+label, input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+}
+
+/* Кнопки */
+button {
+    padding: 10px 20px;
+    background: #50b3a2;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Подія при наведенні на кнопку */
+button:hover {
+    background: #333;
+}
+
+/* Стилі для таблиці */
+table {
+    width: 100%; /* таблиця розтягується на всю доступну ширину */
+    border-collapse: collapse; /* видаляємо подвійні лінії між комірками */
+    margin: 20px 0; /* відступи зверху і знизу */
+}
+
+/* Заголовок та комірки таблиці */
+th, td {
+    border: 1px solid #dddddd; /* рамка навколо комірок */
+    padding: 8px 12px; /* внутрішні відступи в комірках */
+    text-align: left; /* текст вирівнюється по лівому краю */
+}
+
+/* Стилі для заголовка таблиці */
+th {
+    background-color: #f2f2f2; /* темніший колір для заголовків таблиці */
+}
